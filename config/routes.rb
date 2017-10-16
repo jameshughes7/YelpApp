@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'static_pages/home'
+  resources :restaurants
+
 
   get 'static_pages/help'
 
